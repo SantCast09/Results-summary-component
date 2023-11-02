@@ -112,9 +112,15 @@ body {
 button {
     color: hsl(0, 0%, 100%);
     background: hsl(224, 30%, 27%);
+    border: none;
     border-radius: 15px;
     width: 100%;
     font-size: 15px;
     padding: 5px;
     margin-top: 10px;
+}
+
+button:hover {
+    background: hsl(241, 81%, 54%, .80);
+    cursor: pointer;
 }
