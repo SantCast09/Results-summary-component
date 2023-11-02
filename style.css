@@ -1,0 +1,120 @@
+body {
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.box {
+    display: flex;
+    margin: 100px auto;
+    width: 500px;
+    border-radius: 10%;
+    box-shadow: 5px 7px 5px 0 #d8d3d3;
+}
+
+.result {
+    background: hsl(241, 81%, 54%, .80);
+    color: rgb(220, 220, 220);
+    width: 250px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.result h3 {
+    font-size: 20px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: hsla(256, 72%, 46%, .30);
+    margin: 0px 50px;
+}
+
+.circle h1 {
+    font-size: 70px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.circle p {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.result p {
+    font-size: 15px;
+
+}
+
+.summary {
+    width: 250px;
+    border-radius: 10%;
+    padding: 0 2rem;
+}
+
+.category {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.category p {
+    margin: 5px;
+}
+
+.score {
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    color: rgb(150, 150, 150);
+}
+
+.score b {
+    color: #000;
+}
+
+
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background: hsl(0, 100%, 67%, .10);
+
+
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background: hsl(39, 100%, 56%, .10);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background: hsl(166, 100%, 37%, .10);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    background: hsl(234, 85%, 45%, .10);
+}
+
+button {
+    color: hsl(0, 0%, 100%);
+    background: hsl(224, 30%, 27%);
+    border-radius: 15px;
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
